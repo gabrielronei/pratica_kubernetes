@@ -1,7 +1,10 @@
 # pratica_kubernetes
 <img src="https://matthewpalmer.net/kubernetes-app-developer/articles/networking-overview.png"/>
 
-### O que é um Node?
+### O que é um cluster?
+Um cluster no Kubernetes é um grupo de maquinas que trabalham em conjunto para executar e gerenciar aplicativos em containers. O cluster inclui um nó mestre que controla o cluster e varios nós de trabalho que executam os aplicativos
+ 
+### O que é um Nó(Node)?
 Basicamente um node é uma maquina dentro do cluster que executa os pods e fornece os recursos necessarios para as cargas de trabalho. 
 
 ### O que é um Pod?
