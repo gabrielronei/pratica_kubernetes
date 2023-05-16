@@ -1,5 +1,13 @@
 # pratica_kubernetes
-brincando com kubernetes
+<img src="https://matthewpalmer.net/kubernetes-app-developer/articles/networking-overview.png"/>
+
+### O que é um Node?
+Basicamente um node é uma maquina dentro do cluster que executa os pods e fornece os recursos necessarios para as cargas de trabalho. 
+
+### O que é um Pod?
+É uma unidade simples execução e implantação de containers, agrupando um ou mais containers em um unico nó. Podem ser gerenciados, escalados e removido de forma. Basicamente, pods são grupos de containers relacionados.
+
+## brincando com kubernetes
 
 Link da [imagem](https://hub.docker.com/r/gabrielronei/hello-go) 
 
