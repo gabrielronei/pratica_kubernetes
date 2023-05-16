@@ -30,6 +30,9 @@ Pra lembrar no futuro:
 
 - Apontando para porta do pod
 `kubectl port-forward pod/goserver 8080:8082`
+
+- Deletar pods
+`kubectl delete pod goserver`
  
 - Aplicando criação da replica
 `kubectl apply -f k8s/replicaset.yaml`
