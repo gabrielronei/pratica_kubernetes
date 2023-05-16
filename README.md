@@ -43,4 +43,7 @@ Pra lembrar no futuro:
 - Aplicando criação da replica
 `kubectl apply -f k8s/replicaset.yaml`
 
+- Listar as replicas
+`kubectl get replicasets`
+
 `docker run --rm  -p8082:8082 gabrielronei/hello-go`
