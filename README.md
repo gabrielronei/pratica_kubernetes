@@ -49,4 +49,16 @@ Pra lembrar no futuro:
 - Aplicando criação do deployment
 `kubectl apply -f k8s/deployment.yaml`
 
+- Ver o que está acontecendo no deployment
+`kubectl describe deployment goserver`
+
+- Ver tudo que mudou
+`kubectl rollout history deployment goserver`
+
+- Voltar para versão anterior
+`kubectl rollout undo deployment goserver`
+
+- Voltar para versão especifica 
+`kubectl rollout undo deployment goserver --to-revision=versao_especifica`
+
 `docker run --rm  -p8082:8082 gabrielronei/hello-go`
