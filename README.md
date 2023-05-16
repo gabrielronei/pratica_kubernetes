@@ -10,6 +10,9 @@ Basicamente um node é uma maquina dentro do cluster que executa os pods e forne
 ### O que é um Pod?
 É uma unidade simples execução e implantação de containers, agrupando um ou mais containers em um unico nó. Podem ser gerenciados, escalados e removido de forma. Basicamente, pods são grupos de containers relacionados.
 
+## Como funciona o deployment no kubernetes?
+Basicamente é Deployment > Replicaset > Pods, o deployment cria um replicaset e ele cria os pods, se você alterar o deployment ele vai repetir esse processo e atualizar a versão automaticamente.
+
 ## brincando com kubernetes
 
 Link da [imagem no dockerhub](https://hub.docker.com/r/gabrielronei/hello-go) 
