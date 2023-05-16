@@ -9,7 +9,7 @@ Basicamente um node é uma maquina dentro do cluster que executa os pods e forne
 
 ## brincando com kubernetes
 
-Link da [imagem](https://hub.docker.com/r/gabrielronei/hello-go) 
+Link da [imagem no dockerhub](https://hub.docker.com/r/gabrielronei/hello-go) 
 
 Pra lembrar no futuro:
 
