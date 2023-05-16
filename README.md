@@ -22,5 +22,8 @@ Pra lembrar no futuro:
 
 - Apontando para porta do pod
 `kubectl port-forward pod/goserver 8080:8082`
+ 
+- Aplicando criação da replica
+`kubectl apply -f k8s/replicaset.yaml`
 
 `docker run --rm  -p8082:8082 gabrielronei/hello-go`
