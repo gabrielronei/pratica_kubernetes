@@ -46,4 +46,7 @@ Pra lembrar no futuro:
 - Listar as replicas
 `kubectl get replicasets`
 
+- Aplicando criação do deployment
+`kubectl apply -f k8s/deployment.yaml`
+
 `docker run --rm  -p8082:8082 gabrielronei/hello-go`
