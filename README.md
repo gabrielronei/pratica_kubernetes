@@ -49,6 +49,7 @@ Pra lembrar no futuro:
 - Aplicando criação do deployment
 `kubectl apply -f k8s/deployment.yaml`
 
+<<<<<<< Updated upstream
 - Ver o que está acontecendo no deployment
 `kubectl describe deployment goserver`
 
@@ -60,5 +61,15 @@ Pra lembrar no futuro:
 
 - Voltar para versão especifica 
 `kubectl rollout undo deployment goserver --to-revision=versao_especifica`
+=======
+- Aplicando criação do service
+`kubectl apply -f k8s/service.yaml`
+
+- Listar os services
+`kubectl get svc`
+
+- Acessando service
+`kubectl port-forward svc/goserver-service 8080:8082`
+>>>>>>> Stashed changes
 
 `docker run --rm  -p8082:8082 gabrielronei/hello-go`
